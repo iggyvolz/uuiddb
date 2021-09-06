@@ -13,10 +13,10 @@ class UuidDb
     private function __construct()
     {
     }
-    public static function get(UuidInterface $uuid): ?object
+    public static function get(UuidInterface $uuid, ?string $expectedType = null): ?object
     {
         foreach(self::$libraries as $library) {
-            if(is_object($val = $library->get($uuid))) {
+            if(is_object($val = $library->get($uuid, $expectedType))) {
                 return $val;
             }
         }
