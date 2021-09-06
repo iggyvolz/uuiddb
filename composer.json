@@ -1,0 +1,21 @@
+{
+    "name": "iggyvolz/uuiddb",
+    "description": "Global in-memory or memory-accessible database of UUID => PHP object",
+    "type": "library",
+    "license": "BSD0",
+    "autoload": {
+        "psr-4": {
+            "iggyvolz\\Uuiddb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katie Volz",
+            "email": "iggyvolz@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.2",
+        "php": "^8.0"
+    }
+}
