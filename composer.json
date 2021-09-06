@@ -2,7 +2,7 @@
     "name": "iggyvolz/uuiddb",
     "description": "Global in-memory or memory-accessible database of UUID => PHP object",
     "type": "library",
-    "license": "BSD0",
+    "license": "0BSD",
     "autoload": {
         "psr-4": {
             "iggyvolz\\Uuiddb\\": "src/"
